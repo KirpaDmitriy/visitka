@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1% 0;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-image: linear-gradient(0deg,
+    rgba(19, 138, 156, 0.965) 23.8%, #5ed6bc 92%);
+}
+.page {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1% 1% 1% 1%;
+    z-index: 100;
+}
+nav ul li {
+    display: inline;
+    color: rgb(23, 3, 49);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(23, 3, 49);
+    font-size: 20px;
+}
+.cut {
+    color: rgb(23, 3, 49);
+    font-size: 30px;
+    font-weight: lighter;
+}
+.name {
+    margin: 8px 0px 8px;
+}
+.description {
+    font-weight: lighter;
+    color: rgb(23, 3, 49);
+    position: absolute;
+    top: 55%;
+    left: 8%;
+}
+h2{
+    font-size: 75px;
+    color: rgb(8, 6, 61);
+}
+h4, h6  {
+    font-size: 75px;
+    font-weight:300;
+    color: rgb(8, 6, 61);
+}
+.heading {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+.head { 
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+}
+.me {
+    width: 30%;
+    float: right;
+    transform: translateX(-40%);
+}
+
+.page img {
+    height: auto;
+    margin: 10px;
+    width: 100%;
+    display: block;
+}
+
+.my {
+    position: relative;
+    margin-top: 20%;
+}
+
+.box {
+    width: 100%;
+    list-style: none;
+    padding: 0 0 3%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    width: 100%;
+    height: 225vh;
+    position: flex;
+    background-size: cover;
+}
+
+#info {
+    width: 75px;
+    height: 60vh;
+    width: 100%;
+    margin: 5%;
+    padding: 5%;
+    margin-top: 15%;
+}
+
+.text_info {
+    color: black;
+    padding: 2% 10% 10% 8%;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: justify;
+    justify-content: center;
+
+}
+
+#about {
+    width: 75px;
+    height: 60vh;
+    width: 100%;
+    margin: 5%;
+    margin-top: 15%;
+    padding: 5%;
+}
+.info_t {
+    color: black;
+    padding: 2% 10% 10% 8%;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: justify;
+    justify-content: center;
+}
+
+#contact {
+    width: 75px;
+    height: 60vh;
+    width: 100%;
+    margin: 5%;
+    padding: 5%;
+    margin-top: 15%;
+}
+.heading {
+    width: 80%;
+    height: 60vh;
+    font-size: 75px;
+    line-height: 42px;
+    margin-left: 8%;
+    margin-top: 25%;
+    text-align: center;
+}
+
+.text {
+    margin: 1%;
+    padding: 3%;
+    font-size: 25px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+.pic {
+    display: inline-block;
+    margin: 0;
+    padding: 3%;
+    font-size: 30px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#button {
+    border-radius: 100pt;
+    border: none;
+    color: black;
+    background: rgb(3, 233, 229);
+    font-size: 50px;
+}
+
+#link {
+    text-align: center;
+    padding-bottom: 30pt;
+}
+  

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="img/i1.jpg" style="width:100%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/i2.jpg" style="width: 100%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/i3.jpg" style="width: 100%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/i4.jpg" style="width: 100%;">
+        </div>
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000);
+        }
+    </script>
+    <div style="text-align:center"></div>
+    <div id="link">
+        <a href="main.html">
+            <input id="button" name="" type="button" value="Главная">
+        </a>
+    </div>
+
+</body>
+</html>
